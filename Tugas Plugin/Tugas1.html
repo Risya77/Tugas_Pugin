@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // TUGASS 11-12-2020
+        function checkGrade (params){
+            if (params <= 100 && params > 79 ){
+                console.log ("A")
+            
+            }else if (params <= 79 && params >= 65 ){
+                console.log ("B")
+
+            }else if(params < 65 && params >= 50) {
+                console.log ("C");
+
+            }else if(params < 51 && params > 0){
+                console.log("D");
+            }else{
+                console.log("anda terlalu cerdas!");
+            }
+        }
+        checkGrade(80)
+        checkGrade(70)
+        checkGrade(60)
+        checkGrade(40)
+        checkGrade(150)
+
+    </script>
+</body>
+</html>
